@@ -1,0 +1,101 @@
+Vehicle_ID,Scenario,Controller,Street,Main_Arrival_Rate,Side_Arrival_Rate,Arrival_Time_seconds,Queue_Length_vehicles,Green_Time_seconds,Vehicle_Delay_seconds,Crossing_Time_seconds,Delay_Category,Processed,Scenario_Average_Delay_seconds,Scenario_Average_Queue_vehicles,Scenario_Total_Throughput_vehicles,Simulation_Time_seconds,Vehicle_Clearance_Time_seconds,Light_Change_Time_seconds,Description
+1,S2_Adaptive,Adaptive,Main,0.5,0.3,3394.47,13,46,36.81,3431.28,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+2,S2_Adaptive,Adaptive,Main,0.5,0.3,3292.37,6,30,46.53,3338.9,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+3,S3_Imbalanced,Adaptive,Main,0.64,0.16,1940.32,11,40,36.13,1976.45,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+4,S1_Fixed,Fixed,Main,0.5,0.3,3590.37,18,40,63.23,3600,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+5,S2_Adaptive,Adaptive,Side,0.5,0.3,3099.97,12,42,49.93,3149.9,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+6,S2_Adaptive,Adaptive,Main,0.5,0.3,1385.16,6,31,36.48,1421.64,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+7,S1_Fixed,Fixed,Side,0.5,0.3,3098.81,22,20,53.92,3152.73,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+8,S3_Imbalanced,Adaptive,Main,0.64,0.16,1933.09,11,22,65.9,1998.99,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+9,S1_Fixed,Fixed,Main,0.5,0.3,569.37,22,40,52.93,622.3,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+10,S3_Imbalanced,Adaptive,Main,0.64,0.16,3498.8,12,21,34.57,3533.37,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+11,S3_Imbalanced,Adaptive,Side,0.64,0.16,1074.4,7,24,36.22,1110.62,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+12,S1_Fixed,Fixed,Main,0.5,0.3,581.58,25,40,44.72,626.3,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+13,S2_Adaptive,Adaptive,Side,0.5,0.3,2156.2,8,38,44.54,2200.74,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+14,S2_Adaptive,Adaptive,Side,0.5,0.3,2994.0,10,20,48.0,3042.0,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+15,S3_Imbalanced,Adaptive,Main,0.64,0.16,1749.57,19,23,57.37,1806.94,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+16,S2_Adaptive,Adaptive,Main,0.5,0.3,1711.02,6,42,41.22,1752.24,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+17,S2_Adaptive,Adaptive,Side,0.5,0.3,3344.09,10,34,25.77,3369.86,Low,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+18,S3_Imbalanced,Adaptive,Main,0.64,0.16,2418.07,4,43,67.19,2485.26,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+19,S3_Imbalanced,Adaptive,Main,0.64,0.16,808.91,8,29,62.42,871.33,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+20,S2_Adaptive,Adaptive,Main,0.5,0.3,25.89,10,19,40.09,65.98,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+21,S1_Fixed,Fixed,Side,0.5,0.3,3094.69,18,20,56.35,3151.04,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+22,S1_Fixed,Fixed,Side,0.5,0.3,771.25,22,20,73.3,844.55,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+23,S1_Fixed,Fixed,Main,0.5,0.3,1701.62,16,40,31.27,1732.89,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+24,S3_Imbalanced,Adaptive,Main,0.64,0.16,348.95,7,44,54.11,403.06,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+25,S3_Imbalanced,Adaptive,Side,0.64,0.16,195.02,7,18,34.61,229.63,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+26,S2_Adaptive,Adaptive,Main,0.5,0.3,1221.49,13,27,37.19,1258.68,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+27,S3_Imbalanced,Adaptive,Main,0.64,0.16,504.66,14,19,61.04,565.7,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+28,S1_Fixed,Fixed,Main,0.5,0.3,3100.86,13,40,51.34,3152.2,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+29,S3_Imbalanced,Adaptive,Side,0.64,0.16,3009.7,23,30,43.51,3053.21,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+30,S1_Fixed,Fixed,Main,0.5,0.3,1748.31,16,40,64.38,1812.69,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+31,S1_Fixed,Fixed,Main,0.5,0.3,1364.3,18,40,51.67,1415.97,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+32,S2_Adaptive,Adaptive,Side,0.5,0.3,1638.03,0,50,58.14,1696.17,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+33,S2_Adaptive,Adaptive,Side,0.5,0.3,1752.02,12,18,51.94,1803.96,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+34,S2_Adaptive,Adaptive,Main,0.5,0.3,1951.9,10,45,40.0,1991.9,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+35,S3_Imbalanced,Adaptive,Main,0.64,0.16,3069.79,19,20,74.34,3144.13,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+36,S2_Adaptive,Adaptive,Side,0.5,0.3,246.68,19,40,54.01,300.69,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+37,S3_Imbalanced,Adaptive,Main,0.64,0.16,3205.03,12,20,64.94,3269.97,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+38,S2_Adaptive,Adaptive,Main,0.5,0.3,2101.22,0,28,40.12,2141.34,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+39,S3_Imbalanced,Adaptive,Main,0.64,0.16,1131.06,11,34,55.15,1186.21,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+40,S1_Fixed,Fixed,Main,0.5,0.3,3344.47,15,40,51.89,3396.36,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+41,S2_Adaptive,Adaptive,Main,0.5,0.3,2026.78,15,47,52.88,2079.66,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+42,S1_Fixed,Fixed,Main,0.5,0.3,3359.73,22,40,35.75,3395.48,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+43,S2_Adaptive,Adaptive,Main,0.5,0.3,567.89,14,48,27.94,595.83,Low,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+44,S2_Adaptive,Adaptive,Main,0.5,0.3,2941.57,8,23,60.98,3002.55,High,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+45,S1_Fixed,Fixed,Main,0.5,0.3,3202.97,14,40,45.57,3248.54,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+46,S2_Adaptive,Adaptive,Main,0.5,0.3,758.27,6,31,59.39,817.66,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+47,S2_Adaptive,Adaptive,Main,0.5,0.3,904.04,12,42,42.01,946.05,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+48,S2_Adaptive,Adaptive,Side,0.5,0.3,158.71,9,31,49.62,208.33,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+49,S1_Fixed,Fixed,Main,0.5,0.3,1590.61,13,40,37.74,1628.35,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+50,S2_Adaptive,Adaptive,Main,0.5,0.3,3402.18,9,17,37.76,3439.94,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+51,S3_Imbalanced,Adaptive,Side,0.64,0.16,2097.03,13,34,53.84,2150.87,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+52,S2_Adaptive,Adaptive,Main,0.5,0.3,3359.12,12,37,43.52,3402.64,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+53,S1_Fixed,Fixed,Main,0.5,0.3,898.31,21,40,65.11,963.42,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+54,S2_Adaptive,Adaptive,Side,0.5,0.3,1462.96,8,30,39.34,1502.3,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+55,S1_Fixed,Fixed,Side,0.5,0.3,3514.34,18,20,29.54,3543.88,Low,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+56,S2_Adaptive,Adaptive,Main,0.5,0.3,2651.63,5,30,68.24,2719.87,High,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+57,S2_Adaptive,Adaptive,Main,0.5,0.3,2834.55,18,45,59.41,2893.96,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+58,S3_Imbalanced,Adaptive,Main,0.64,0.16,2939.71,7,29,51.35,2991.06,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+59,S1_Fixed,Fixed,Main,0.5,0.3,2376.12,11,40,58.32,2434.44,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+60,S2_Adaptive,Adaptive,Main,0.5,0.3,2783.98,7,49,55.65,2839.63,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+61,S1_Fixed,Fixed,Main,0.5,0.3,99.36,17,40,46.02,145.38,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+62,S1_Fixed,Fixed,Main,0.5,0.3,3540.78,21,40,56.39,3597.17,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+63,S1_Fixed,Fixed,Main,0.5,0.3,2831.14,1,40,65.99,2897.13,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+64,S3_Imbalanced,Adaptive,Main,0.64,0.16,3238.22,12,42,52.18,3290.4,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+65,S3_Imbalanced,Adaptive,Main,0.64,0.16,3332.07,4,27,44.24,3376.31,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+66,S1_Fixed,Fixed,Main,0.5,0.3,251.91,12,40,43.32,295.23,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+67,S3_Imbalanced,Adaptive,Main,0.64,0.16,3052.86,11,34,38.86,3091.72,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+68,S2_Adaptive,Adaptive,Side,0.5,0.3,1174.26,8,27,29.69,1203.95,Low,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+69,S3_Imbalanced,Adaptive,Main,0.64,0.16,3385.31,7,34,25.56,3410.87,Low,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+70,S1_Fixed,Fixed,Main,0.5,0.3,3001.41,13,40,60.32,3061.73,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+71,S1_Fixed,Fixed,Side,0.5,0.3,2183.98,12,20,64.19,2248.17,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+72,S3_Imbalanced,Adaptive,Main,0.64,0.16,1840.23,15,25,19.53,1859.76,Low,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+73,S2_Adaptive,Adaptive,Side,0.5,0.3,1021.63,7,20,29.83,1051.46,Low,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+74,S3_Imbalanced,Adaptive,Side,0.64,0.16,2704.1,10,27,41.25,2745.35,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+75,S2_Adaptive,Adaptive,Main,0.5,0.3,166.37,17,19,42.46,208.83,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+76,S3_Imbalanced,Adaptive,Main,0.64,0.16,3190.09,4,39,40.08,3230.17,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+77,S1_Fixed,Fixed,Main,0.5,0.3,878.34,14,40,51.49,929.83,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+78,S3_Imbalanced,Adaptive,Main,0.64,0.16,2772.17,16,26,56.66,2828.83,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+79,S3_Imbalanced,Adaptive,Side,0.64,0.16,2505.28,5,22,52.2,2557.48,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+80,S3_Imbalanced,Adaptive,Main,0.64,0.16,2885.1,4,35,17.84,2902.94,Low,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+81,S2_Adaptive,Adaptive,Side,0.5,0.3,3209.13,4,47,31.68,3240.81,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+82,S1_Fixed,Fixed,Main,0.5,0.3,3264.68,12,40,54.9,3319.58,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+83,S1_Fixed,Fixed,Side,0.5,0.3,1620.25,15,20,29.57,1649.82,Low,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+84,S3_Imbalanced,Adaptive,Main,0.64,0.16,2799.63,8,43,49.68,2849.31,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+85,S3_Imbalanced,Adaptive,Main,0.64,0.16,1028.62,11,49,59.26,1087.88,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+86,S1_Fixed,Fixed,Main,0.5,0.3,542.99,12,40,57.17,600.16,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+87,S2_Adaptive,Adaptive,Main,0.5,0.3,1493.52,7,18,55.86,1549.38,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+88,S3_Imbalanced,Adaptive,Main,0.64,0.16,1512.52,17,16,39.87,1552.39,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+89,S1_Fixed,Fixed,Side,0.5,0.3,2756.14,14,20,53.43,2809.57,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+90,S3_Imbalanced,Adaptive,Main,0.64,0.16,2712.51,19,41,25.16,2737.67,Low,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+91,S3_Imbalanced,Adaptive,Main,0.64,0.16,2644.68,15,46,24.44,2669.12,Low,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+92,S1_Fixed,Fixed,Main,0.5,0.3,1569.01,19,40,54.51,1623.52,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+93,S1_Fixed,Fixed,Side,0.5,0.3,1455.54,17,20,64.14,1519.68,High,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+94,S1_Fixed,Fixed,Main,0.5,0.3,2240.13,19,40,54.57,2294.7,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+95,S1_Fixed,Fixed,Main,0.5,0.3,97.57,13,40,47.48,145.05,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+96,S2_Adaptive,Adaptive,Main,0.5,0.3,181.02,8,35,49.82,230.84,Medium,Yes,44.12,10.72,2812,3600,1.8,5,Balanced Load with Demand-Responsive (Smart) Timing
+97,S3_Imbalanced,Adaptive,Main,0.64,0.16,3166.7,9,41,77.85,3244.55,High,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
+98,S1_Fixed,Fixed,Main,0.5,0.3,294.86,21,40,54.36,349.22,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+99,S1_Fixed,Fixed,Side,0.5,0.3,1259.86,9,20,35.6,1295.46,Medium,Yes,52.54,14.97,2813,3600,1.8,5,Baseline (62.5% Main) with Fixed Timing (40s/20s)
+100,S3_Imbalanced,Adaptive,Main,0.64,0.16,2715.24,15,16,46.33,2761.57,Medium,Yes,48.82,12.01,2825,3600,1.8,5,Imbalanced Load (80% Main) with Demand-Responsive Timing
