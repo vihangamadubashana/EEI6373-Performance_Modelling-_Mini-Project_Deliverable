@@ -380,7 +380,7 @@ if len(dataset) != 100:
 
 # CSV FILE NAME
 csv_filename = (
-    "traffic_simulation_dataset_100_rows.csv"
+    "traffic_simulation_dataset.csv"
 )
 
 
