@@ -546,5 +546,4 @@ print("=" * 70)
 print(
     "DONE - 100 ROW DATASET READY"
 )
-
 print("=" * 70)
